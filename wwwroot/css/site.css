@@ -1,0 +1,714 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/* ==========================================
+   VOLUNTEER PAGE
+   ========================================== */
+
+.volunteer-hero {
+    background-color: #00843D;
+    color: white;
+    padding: 75px 20px;
+    border-bottom: 6px solid #FFD100;
+}
+
+    .volunteer-hero h1 {
+        font-size: 48px;
+        font-weight: 800;
+        margin: 15px 0;
+    }
+
+    .volunteer-hero p {
+        max-width: 700px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+.volunteer-section {
+    padding: 80px 20px;
+    background-color: #F5F7F5;
+}
+
+.volunteer-card {
+    background-color: white;
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    border-top: 6px solid #00843D;
+}
+
+    .volunteer-card h2 {
+        color: #00843D;
+        font-weight: 800;
+        margin-top: 10px;
+    }
+
+    .volunteer-card .form-label {
+        color: #333;
+        font-weight: 600;
+    }
+
+    .volunteer-card .form-control,
+    .volunteer-card .form-select {
+        border: 1px solid #d5ddd7;
+        padding: 12px 14px;
+        border-radius: 5px;
+    }
+
+        .volunteer-card .form-control:focus,
+        .volunteer-card .form-select:focus {
+            border-color: #00843D;
+            box-shadow: 0 0 0 0.2rem rgba(0, 132, 61, 0.15);
+        }
+
+    .volunteer-card .form-check-input:checked {
+        background-color: #00843D;
+        border-color: #00843D;
+    }
+
+    .volunteer-card .btn-gotg {
+        padding: 13px 28px;
+    }
+
+.volunteer-cta {
+    background-color: #006B32;
+    color: white;
+    padding: 70px 20px;
+    border-top: 6px solid #FFD100;
+}
+
+    .volunteer-cta h2 {
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .volunteer-cta p {
+        color: #e9f4ed;
+        font-size: 18px;
+    }
+
+@media (max-width: 768px) {
+
+    .volunteer-hero h1 {
+        font-size: 36px;
+    }
+
+    .volunteer-card {
+        padding: 30px 20px;
+    }
+
+    .volunteer-cta h2 {
+        font-size: 30px;
+    }
+}
+
+
+/* ==========================================
+GIFT OF THE GIVERS INSPIRED THEME
+========================================== */
+
+:root {
+    --gotg-green: #00843D;
+    --gotg-dark-green: #006B32;
+    --gotg-yellow: #FFD100;
+    --gotg-light-green: #EAF5EE;
+    --gotg-white: #FFFFFF;
+    --gotg-light-gray: #F5F7F5;
+    --gotg-dark: #222222;
+}
+
+/* ==========================
+NAVBAR
+========================== */
+
+.navbar {
+    background-color: var(--gotg-white) !important;
+    border-bottom: 4px solid var(--gotg-green);
+}
+
+.navbar-brand {
+    color: var(--gotg-green) !important;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+    .navbar-brand:hover {
+        color: var(--gotg-dark-green) !important;
+    }
+
+.navbar .nav-link {
+    color: var(--gotg-dark) !important;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+    .navbar .nav-link:hover {
+        color: var(--gotg-green) !important;
+    }
+
+/* ==========================
+HERO
+========================== */
+
+.hero-section {
+    background: linear-gradient( rgba(0, 132, 61, 0.92), rgba(0, 107, 50, 0.92) );
+    ``` color: white;
+    padding: 100px 0;
+    ```
+}
+
+.min-vh-75 {
+    min-height: 65vh;
+}
+
+.hero-label {
+    display: inline-block;
+    color: var(--gotg-yellow);
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.hero-title {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 15px 0 25px;
+}
+
+.hero-text {
+    font-size: 19px;
+    line-height: 1.7;
+    color: white;
+    max-width: 620px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons .btn {
+    padding: 13px 28px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+/* ==========================
+YELLOW DONATE BUTTON
+========================== */
+
+.btn-gotg {
+    background-color: var(--gotg-yellow);
+    color: #222;
+    border: 2px solid var(--gotg-yellow);
+    font-weight: 700;
+}
+
+    .btn-gotg:hover {
+        background-color: #e6bc00;
+        border-color: #e6bc00;
+        color: #222;
+    }
+
+/* ==========================
+IMPACT SECTION
+========================== */
+
+.impact-section {
+    padding: 80px 0;
+    background-color: var(--gotg-white);
+}
+
+.section-label {
+    color: var(--gotg-green);
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.impact-card {
+    padding: 35px 20px;
+    background: white;
+    border-radius: 8px;
+    border-top: 5px solid var(--gotg-yellow);
+    transition: all 0.3s ease;
+}
+
+    .impact-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 132, 61, 0.15);
+    }
+
+.impact-number {
+    color: var(--gotg-green);
+    font-size: 44px;
+    font-weight: 800;
+}
+
+/* ==========================
+SERVICES
+========================== */
+
+.services-section {
+    padding: 80px 0;
+    background-color: var(--gotg-light-gray);
+}
+
+.service-card {
+    background-color: white;
+    padding: 35px;
+    height: 100%;
+    border-radius: 8px;
+    border-bottom: 4px solid var(--gotg-green);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+    .service-card:hover {
+        transform: translateY(-5px);
+        border-bottom-color: var(--gotg-yellow);
+        box-shadow: 0 12px 30px rgba(0,0,0,0.10);
+    }
+
+    .service-card h4 {
+        color: var(--gotg-green);
+        font-weight: 700;
+    }
+
+.service-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+/* ==========================
+DONATION CTA
+========================== */
+
+.donate-section {
+    padding: 85px 20px;
+    background-color: var(--gotg-green);
+    color: white;
+    border-top: 7px solid var(--gotg-yellow);
+}
+
+    .donate-section h2 {
+        font-weight: 800;
+        font-size: 38px;
+    }
+
+    .donate-section p {
+        max-width: 650px;
+        margin: 15px auto 30px;
+        font-size: 18px;
+    }
+
+/* ==========================
+GENERAL BUTTON
+========================== */
+
+.btn-danger {
+    background-color: var(--gotg-yellow) !important;
+    border-color: var(--gotg-yellow) !important;
+    color: #222 !important;
+    font-weight: 700;
+}
+
+    .btn-danger:hover {
+        background-color: #e6bc00 !important;
+        border-color: #e6bc00 !important;
+    }
+
+/* ==========================
+MOBILE
+========================== */
+
+@media (max-width: 768px) {
+
+    ```
+    .hero-section {
+        padding: 65px 20px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-text {
+        font-size: 17px;
+    }
+
+    .hero-buttons .btn {
+        margin-bottom: 10px;
+    }
+
+    .navbar .nav-link {
+        margin-left: 0;
+    }
+
+    ```
+}
+/* ==========================================
+GIFT OF THE GIVERS FOOTER
+========================================== */
+
+.gotg-footer {
+    background-color: #006B32;
+    color: white;
+    padding: 55px 0 20px;
+    border-top: 6px solid #FFD100;
+}
+
+    .gotg-footer h5 {
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    .gotg-footer h6 {
+        color: #FFD100;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .gotg-footer p {
+        color: #e7f2eb;
+        line-height: 1.7;
+    }
+
+    .gotg-footer ul li {
+        margin-bottom: 10px;
+    }
+
+    .gotg-footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+        .gotg-footer a:hover {
+            color: #FFD100;
+        }
+
+    .gotg-footer hr {
+        border-color: rgba(255, 255, 255, 0.25);
+        margin: 20px 0;
+    }
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e7f2eb;
+    font-size: 14px;
+}
+
+    .footer-bottom a {
+        color: #FFD100;
+    }
+
+@media (max-width: 768px) {
+
+    ```
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    ```
+}
+/* ==========================================
+ABOUT PAGE
+========================================== */
+
+.about-hero {
+    background-color: #00843D;
+    color: white;
+    padding: 80px 20px;
+    border-bottom: 6px solid #FFD100;
+}
+
+    .about-hero h1 {
+        font-size: 48px;
+        font-weight: 800;
+        margin: 15px 0;
+    }
+
+    .about-hero p {
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 1.7;
+        color: #f0f8f3;
+    }
+
+.about-section {
+    padding: 85px 0;
+    background-color: white;
+}
+
+    .about-section h2 {
+        color: #00843D;
+        font-weight: 800;
+        margin: 15px 0 25px;
+    }
+
+    .about-section p {
+        color: #555;
+        line-height: 1.8;
+    }
+
+.about-highlight {
+    background-color: #EAF5EE;
+    border-left: 7px solid #FFD100;
+    padding: 45px;
+    border-radius: 8px;
+}
+
+    .about-highlight h3 {
+        color: #00843D;
+        font-weight: 800;
+    }
+
+.about-icon {
+    color: #00843D;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+/* Values */
+
+.values-section {
+    padding: 85px 0;
+    background-color: #F5F7F5;
+}
+
+.value-card {
+    background-color: white;
+    padding: 40px 30px;
+    height: 100%;
+    text-align: center;
+    border-radius: 8px;
+    border-top: 5px solid #00843D;
+    transition: all 0.3s ease;
+}
+
+    .value-card:hover {
+        transform: translateY(-5px);
+        border-top-color: #FFD100;
+        box-shadow: 0 10px 25px rgba(0, 132, 61, 0.12);
+    }
+
+    .value-card h4 {
+        color: #00843D;
+        font-weight: 700;
+        margin: 15px 0;
+    }
+
+    .value-card p {
+        color: #666;
+        line-height: 1.7;
+    }
+
+.value-icon {
+    font-size: 42px;
+}
+
+/* About CTA */
+
+.about-cta {
+    background-color: #006B32;
+    color: white;
+    padding: 75px 20px;
+    border-top: 6px solid #FFD100;
+}
+
+    .about-cta h2 {
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    .about-cta p {
+        max-width: 650px;
+        margin: 15px auto 30px;
+        font-size: 18px;
+        color: #e9f4ed;
+    }
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    ```
+    .about-hero h1 {
+        font-size: 36px;
+    }
+
+    .about-section {
+        padding: 60px 20px;
+    }
+
+    .about-highlight {
+        padding: 30px;
+    }
+
+    .about-cta h2 {
+        font-size: 30px;
+    }
+
+    ```
+}
+/* ==========================================
+   RELIEF PROJECTS
+   ========================================== */
+
+.projects-hero {
+    background-color: #00843D;
+    color: white;
+    padding: 75px 20px;
+    border-bottom: 6px solid #FFD100;
+}
+
+    .projects-hero h1 {
+        font-size: 48px;
+        font-weight: 800;
+        margin: 15px 0;
+    }
+
+    .projects-hero p {
+        max-width: 700px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+.projects-section {
+    padding: 80px 0;
+    background-color: #F5F7F5;
+}
+
+.project-card {
+    background-color: white;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+    .project-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 30px rgba(0, 132, 61, 0.15);
+    }
+
+.project-image {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+}
+
+    .project-image.medical {
+        background-color: #EAF5EE;
+    }
+
+    .project-image.food {
+        background-color: #FFF7D6;
+    }
+
+    .project-image.water {
+        background-color: #E5F5FA;
+    }
+
+    .project-image.emergency {
+        background-color: #FDECEC;
+    }
+
+    .project-image.education {
+        background-color: #F1ECFA;
+    }
+
+    .project-image.shelter {
+        background-color: #F5EFE6;
+    }
+
+.project-content {
+    padding: 30px;
+}
+
+.project-category {
+    color: #00843D;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.project-content h3 {
+    color: #222;
+    font-weight: 800;
+    margin: 10px 0 15px;
+}
+
+.project-content p {
+    color: #666;
+    line-height: 1.7;
+}
+
+.project-progress {
+    margin: 25px 0;
+}
+
+    .project-progress span {
+        font-size: 13px;
+        color: #666;
+    }
+
+    .project-progress strong {
+        color: #00843D;
+    }
+
+.progress {
+    height: 8px;
+    margin-top: 8px;
+}
+
+.progress-bar {
+    background-color: #00843D;
+}
+
+.projects-cta {
+    background-color: #006B32;
+    color: white;
+    padding: 75px 20px;
+    border-top: 6px solid #FFD100;
+}
+
+    .projects-cta h2 {
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    .projects-cta p {
+        max-width: 650px;
+        margin: 15px auto 30px;
+        color: #e9f4ed;
+        font-size: 18px;
+    }
